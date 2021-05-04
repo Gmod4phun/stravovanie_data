@@ -1,6 +1,7 @@
 {
   "facilityName": "Eat and Meet",
   "facilityAddress": "Staré Grunty, Bratislava",
+  "facilityOpeningHours": "Pondelok - Piatok: 7:00 - 20:30\nSobota - Nedeľa: 9:00 - 19:00",
   "allergenList": [
     {
       "id": 1,
