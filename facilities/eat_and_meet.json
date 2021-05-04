@@ -1,0 +1,153 @@
+{
+  "facilityName": "Eat and Meet",
+  "facilityAddress": "Staré Grunty, Bratislava",
+  "allergenList": [
+    {
+      "id": 1,
+      "name": "Obilniny obsahujúce lepok (t.j. pšenica, raž, jačmeň, ovos, špalda, kamut alebo ich hybridné odrody)"
+    },
+    {
+      "id": 2,
+      "name": "Kôrovce a výrobky z nich"
+    },
+    {
+      "id": 3,
+      "name": "Vajcia a výrobky z nich"
+    },
+    {
+      "id": 4,
+      "name": "Ryby a výrobky z nich"
+    },
+    {
+      "id": 5,
+      "name": "Arašidy a výrobky z nich"
+    },
+    {
+      "id": 6,
+      "name": "Sójové zrná a výrobky z nich"
+    },
+    {
+      "id": 7,
+      "name": "Mlieko a výrobky z neho"
+    },
+    {
+      "id": 8,
+      "name": "Orechy, ktorými sú mandle, lieskové orechy, vlašské orechy, kešu, pekanové orechy, para orechy, pistácie, makadamové orechy a queenslandské orechy a výrobky z nich"
+    },
+    {
+      "id": 9,
+      "name": "Zeler a výrobky z neho"
+    },
+    {
+      "id": 10,
+      "name": "Horčica a výrobky z nej"
+    },
+    {
+      "id": 11,
+      "name": "Sezamové semená a výrobky z nich"
+    },
+    {
+      "id": 12,
+      "name": "Oxid siričitý a siričitany v koncentráciách vyšších ako 10 mg/kg alebo 10 mg/l"
+    },
+    {
+      "id": 13,
+      "name": "Vlčí bôb a výrobky z neho"
+    },
+    {
+      "id": 13,
+      "name": "Mäkkýše a výrobky z nich"
+    }
+  ],
+  "foodItemList": [
+    {
+      "allergenIDList": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        13
+      ],
+      "amount": "250g",
+      "id": 0,
+      "name": "Parené buchty s makovou posýpkou",
+      "price": 1.45
+    },
+    {
+      "allergenIDList": [
+        3,
+        5,
+        7,
+        14
+      ],
+      "amount": "375g",
+      "id": 1,
+      "name": "Špagety bolognese",
+      "price": 2.2
+    },
+    {
+      "allergenIDList": [
+        5,
+        7,
+        8,
+        12
+      ],
+      "amount": "400g",
+      "id": 2,
+      "name": "Tvarohový čokomousse",
+      "price": 1.45
+    },
+    {
+      "allergenIDList": [
+        1,
+        7,
+        13
+      ],
+      "amount": "220g",
+      "id": 3,
+      "name": "Grilovaný hermelín",
+      "price": 1.45
+    }
+  ],
+  "dailyMenuList": [
+    {
+      "date": {
+        "day": 3,
+        "month": 5,
+        "year": 2021
+      },
+      "dayName": "Pondelok",
+      "foodIDList": [
+        0,
+        1
+      ]
+    },
+    {
+      "date": {
+        "day": 4,
+        "month": 5,
+        "year": 2021
+      },
+      "dayName": "Utorok",
+      "foodIDList": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "date": {
+        "day": 5,
+        "month": 5,
+        "year": 2021
+      },
+      "dayName": "Streda",
+      "foodIDList": [
+        0,
+        3
+      ]
+    }
+  ]
+}
