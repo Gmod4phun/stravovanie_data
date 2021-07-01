@@ -108,47 +108,136 @@
       ],
       "amount": "220g",
       "id": 3,
-      "name": "Grilovaný hermelín na panvici smaženy a dlhy nazov testujem",
+      "name": "Grilovaný hermelín",
       "price": 1.45
+    },
+    {
+      "allergenIDList": [
+        1,
+        3,
+        7
+      ],
+      "amount": "220g",
+      "id": 4,
+      "name": "Vyprážané kuracie nugety, BBQ omáčka",
+      "price": 2.7
+    },
+    {
+      "allergenIDList": [
+        4,
+        7,
+        9
+      ],
+      "amount": "320g",
+      "id": 5,
+      "name": "Losos filet na cesnaku s pórom",
+      "price": 3.45
+    },
+    {
+      "allergenIDList": [
+        1,
+        3,
+        7
+      ],
+      "amount": "400g",
+      "id": 6,
+      "name": "Čoko smotanová torta",
+      "price": 2.5
+    },
+    {
+      "allergenIDList": [
+        1,
+        3,
+        7
+      ],
+      "amount": "320g",
+      "id": 7,
+      "name": "Bryndzové pirohy so slaninkou a smotánkou",
+      "price": 2.7
+    },
+    {
+      "allergenIDList": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "amount": "320g",
+      "id": 8,
+      "name": "Vyprážané rybie filé, citrón",
+      "price": 2.7
+    },
+    {
+      "allergenIDList": [
+        6
+      ],
+      "amount": "280g",
+      "id": 9,
+      "name": "Chilli con tofu",
+      "price": 2.7
+    },
+    {
+      "allergenIDList": [
+        1,
+        7
+      ],
+      "amount": "260g",
+      "id": 10,
+      "name": "Kuracie prsia s grilovanou cuketou, hubová omáčka ",
+      "price": 2.7
     }
   ],
   "dailyMenuList": [
     {
       "date": {
-        "day": 3,
-        "month": 5,
+        "day": 1,
+        "month": 7,
         "year": 2021
       },
-      "dayName": "Pondelok",
+      "dayName": "Štvrtok",
       "foodIDList": [
         0,
-        1
+        1,
+        3,
+        4,
+        5,
+        8
       ]
     },
     {
       "date": {
-        "day": 4,
-        "month": 5,
+        "day": 2,
+        "month": 7,
         "year": 2021
       },
-      "dayName": "Utorok",
+      "dayName": "Piatok",
       "foodIDList": [
         0,
         1,
         2,
-        3
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
       ]
     },
     {
       "date": {
-        "day": 5,
-        "month": 5,
+        "day": 3,
+        "month": 7,
         "year": 2021
       },
-      "dayName": "Streda",
+      "dayName": "Sobota",
       "foodIDList": [
-        0,
-        3
+        2,
+        3,
+        4,
+        6,
+        9
       ]
     }
   ]
